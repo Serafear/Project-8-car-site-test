@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* this is better
+@import "tailwindcss/base";
+if i want a customm css page like header.css i can import betwen base and components
+@import "header.css"; then i create the header css and use the @apply
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+*/
